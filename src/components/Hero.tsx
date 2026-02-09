@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "@/assets/logo-les-petits-rituels.jpg";
+import logo from "@/assets/logo-les-petits-rituels.png";
 
 const Hero = () => {
   return (
