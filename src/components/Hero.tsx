@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroIllustration from "@/assets/hero-illustration.png";
+import logo from "@/assets/logo-les-petits-rituels.jpg";
 
 const Hero = () => {
   return (
@@ -16,9 +16,9 @@ const Hero = () => {
           className="w-48 h-48 md:w-64 md:h-64"
         >
           <img
-            src={heroIllustration}
-            alt="Illustration douce de soins bébé avec couronne florale"
-            className="w-full h-full object-contain animate-float"
+            src={logo}
+            alt="Logo Les Petits Rituels — bébé endormi dans une main avec couronne florale"
+            className="w-full h-full object-contain animate-float rounded-full"
           />
         </motion.div>
 
