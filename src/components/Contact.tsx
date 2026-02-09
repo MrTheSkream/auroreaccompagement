@@ -21,9 +21,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-display font-semibold text-foreground mb-4">
             Prenons <span className="italic text-primary">rendez-vous</span>
           </h2>
-          <p className="text-muted-foreground font-body text-lg leading-relaxed">
-            Je me déplace à votre domicile sur Rennes et ses alentours. N'hésitez pas à me contacter pour en savoir plus ou réserver un soin.
-          </p>
+          <p className="text-muted-foreground font-body text-lg leading-relaxed">Je me déplace à votre domicile sur Rennes et ses alentours. N'hésitez pas à me contacter pour en savoir plus ou p réserver un soin.</p>
         </motion.div>
 
         <motion.div initial={{
