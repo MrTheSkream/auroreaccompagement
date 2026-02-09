@@ -1,17 +1,20 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 md:py-28 px-6">
+  return <section id="contact" className="py-20 md:py-28 px-6">
       <div className="max-w-2xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-12"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        y: 20
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} viewport={{
+        once: true,
+        margin: "-100px"
+      }} transition={{
+        duration: 0.6
+      }} className="text-center mb-12">
           <p className="text-sm font-body font-semibold tracking-widest uppercase text-primary mb-3">
             Contact
           </p>
@@ -23,13 +26,19 @@ const Contact = () => {
           </p>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="bg-card rounded-2xl p-8 md:p-10 shadow-warm space-y-6"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        y: 20
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} viewport={{
+        once: true,
+        margin: "-50px"
+      }} transition={{
+        duration: 0.5,
+        delay: 0.2
+      }} className="bg-card rounded-2xl p-8 md:p-10 shadow-warm space-y-6">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-sage-light flex items-center justify-center flex-shrink-0">
               <MapPin className="w-5 h-5 text-primary" />
@@ -46,11 +55,8 @@ const Contact = () => {
             </div>
             <div>
               <p className="font-body font-semibold text-foreground">Téléphone</p>
-              <a
-                href="tel:+33600000000"
-                className="text-muted-foreground font-body hover:text-primary transition-colors"
-              >
-                06 00 00 00 00
+              <a className="text-muted-foreground font-body hover:text-primary transition-colors" href="tel:+33785591628">
+                07 85 59 16 28    
               </a>
             </div>
           </div>
@@ -61,27 +67,19 @@ const Contact = () => {
             </div>
             <div>
               <p className="font-body font-semibold text-foreground">Email</p>
-              <a
-                href="mailto:contact@example.com"
-                className="text-muted-foreground font-body hover:text-primary transition-colors"
-              >
+              <a href="mailto:contact@example.com" className="text-muted-foreground font-body hover:text-primary transition-colors">
                 contact@example.com
               </a>
             </div>
           </div>
 
           <div className="pt-4">
-            <a
-              href="tel:+33600000000"
-              className="block w-full text-center px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-warm hover:opacity-90 transition-opacity"
-            >
+            <a href="tel:+33600000000" className="block w-full text-center px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-warm hover:opacity-90 transition-opacity">
               Appeler maintenant
             </a>
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
