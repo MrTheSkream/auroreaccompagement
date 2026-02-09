@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: process.env.PORT ? Number(process.env.PORT) : 8080,
+    allowedHosts: ["lespetitsrituels.fr", "www.lespetitsrituels.fr"],
     hmr: {
       overlay: false,
     },
