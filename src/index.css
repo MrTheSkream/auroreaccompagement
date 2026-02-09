@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 30 33% 97%;
+    --background: 35 40% 94%;
     --foreground: 25 20% 20%;
 
     --card: 30 30% 95%;
@@ -52,8 +52,8 @@
     --blush-foreground: 350 30% 30%;
     --sage: 150 25% 42%;
     --sage-light: 150 20% 90%;
-    --cream: 30 33% 97%;
-    --cream-dark: 30 25% 90%;
+    --cream: 35 40% 94%;
+    --cream-dark: 35 30% 88%;
 
     --font-display: 'Playfair Display', serif;
     --font-body: 'Nunito', sans-serif;

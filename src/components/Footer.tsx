@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto text-center space-y-4">
         <div className="flex items-center justify-center gap-2 text-primary">
           <Heart className="w-4 h-4 fill-current" />
-          <span className="font-display text-lg font-semibold">Aurore LUCAS — bien-être bébé</span>
+          <span className="font-display text-lg font-semibold">Les petits rituels</span>
           <Heart className="w-4 h-4 fill-current" />
         </div>
         <p className="text-sm text-muted-foreground font-body">
