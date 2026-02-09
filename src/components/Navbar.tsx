@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 text-primary">
           <Heart className="w-5 h-5 fill-current" />
-          <span className="font-display text-lg font-semibold">Bien-être Bébé</span>
+          <span className="font-display text-lg font-semibold">Aurore LUCAS</span>
         </a>
 
         {/* Desktop links */}
