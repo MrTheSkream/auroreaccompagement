@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           <div className="pt-4">
-            <a href="tel:+33600000000" className="block w-full text-center px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-warm hover:opacity-90 transition-opacity">
+            <a href="tel:+33785591628" className="block w-full text-center px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-warm hover:opacity-90 transition-opacity">
               Appeler maintenant
             </a>
           </div>

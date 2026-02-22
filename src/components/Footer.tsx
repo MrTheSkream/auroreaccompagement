@@ -13,7 +13,7 @@ const Footer = () => {
           Soins à domicile · Rennes & alentours
         </p>
         <p className="text-xs text-muted-foreground/60 font-body">
-          © {new Date().getFullYear()} — Tous droits réservés
+          © {new Date().getFullYear()} - Tous droits réservés
         </p>
       </div>
     </footer>
